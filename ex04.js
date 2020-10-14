@@ -1,7 +1,13 @@
 /* ex4.1 */
-const count=(array)=>{
-    return array.length
-  }
+const count =(array, e)=>{
+    let k = 0;
+    for(let i = 0; i < array.length; i++){
+        if(array[i] === e){
+            k++
+        }
+    }
+    return k
+}
 
 /* ex4.2 */
 const moyenne =(array)=> {
@@ -37,6 +43,8 @@ const Max = (array) =>{
   }
 
 /* ex4.6 */
+
+
 
 
 
