@@ -42,7 +42,7 @@ const Max = (array) =>{
     return maxi
   }
 
-/* ex4.6 */
+/* ex4.7 */
 const diff=(array)=>{
     const smaller = Mini(array)
     const higher = Max(array)
