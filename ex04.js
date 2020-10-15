@@ -43,7 +43,11 @@ const Max = (array) =>{
   }
 
 /* ex4.6 */
-
+const diff=(array)=>{
+    const smaller = Mini(array)
+    const higher = Max(array)
+    return Math.abs(higher - smaller);
+}
 
 
 
